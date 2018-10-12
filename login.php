@@ -6,9 +6,11 @@
 		exit();
 	}
 
-	$redirectURL = " https://fbloginbap.herokuapp.com/fb-callback.php";
+	$redirectURL = "https://fbloginbap.herokuapp.com/fb-callback.php";
 	$permissions = ['email'];
 	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
+
+	echo $loginURL;
 ?>
 <!doctype html>
 <html lang="en">
