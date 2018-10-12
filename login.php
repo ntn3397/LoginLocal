@@ -6,7 +6,7 @@
 		exit();
 	}
 
-	$redirectURL = "https://localhost/FacebookLogin/fb-callback.php";
+	$redirectURL = "https://localhost/FacebookLogin2/fb-callback.php";
 	$permissions = ['email'];
 	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
 ?>
